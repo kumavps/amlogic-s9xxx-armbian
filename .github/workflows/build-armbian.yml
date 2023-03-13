@@ -76,6 +76,7 @@ on:
           - 5.4.225
           - 5.10.160
           - 5.15.85
+          - 5.15.100
           - 6.1.1
       auto_kernel:
         description: "Auto use the latest kernel."
