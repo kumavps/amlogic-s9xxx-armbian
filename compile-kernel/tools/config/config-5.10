@@ -6413,6 +6413,7 @@ CONFIG_VIDEO_SUNXI_CEDRUS=m
 #
 # Android
 #
+CONFIG_ASHMEM=y
 # end of Android
 
 # CONFIG_STAGING_BOARD is not set
@@ -7244,7 +7245,11 @@ CONFIG_RAS=y
 #
 # Android
 #
-# CONFIG_ANDROID is not set
+CONFIG_ANDROID=y
+CONFIG_ANDROID_BINDER_IPC=y
+CONFIG_ANDROID_BINDERFS=y
+CONFIG_ANDROID_BINDER_DEVICES="binder,hwbinder,vndbinder"
+# CONFIG_ANDROID_BINDER_IPC_SELFTEST is not set
 # end of Android
 
 # CONFIG_LIBNVDIMM is not set
